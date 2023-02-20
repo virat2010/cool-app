@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint && stylelint **/*.{css,js}",
-    "ready": "git add * && git commit -m ready && git push origin origin"
+    "ready": "git add * && git commit -m ready && git push origin main"
   },
   "dependencies": {
     "@next/font": "13.1.6",
