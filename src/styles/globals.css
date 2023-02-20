@@ -8,3 +8,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.border-primaryl {
+    border-color: scale(#646CFF, lightness: 30%); 
+}
