@@ -10,5 +10,7 @@
 }
 
 .border-primaryl {
-    border-color: '#CLC4FF'; 
+    border-color: '#CLC4FF';
+    padding-top: 5px t !important;
+    padding-bottom: 5px !important;
 }
