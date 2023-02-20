@@ -13,13 +13,13 @@ export default function Home() {
       <div className="navbar bg-background">
         <Link href="/" className="text-white btn btn-ghost normal-case text-xl ml-52">
           <div className="avatar w-8 mr-1">
-            <img src="favicon.ico" />
+            <img src="favicon.ico" alt="logo" />
           </div> Brand</Link>
       </div>
       <div className="ml-96 mt-16">
         <div className="text-6xl font-bold leading-tight text-white"><span className="cool-text">Brand</span><br/> Next Generation <br /> Some Field </div><br />
         <p className="font-semibold text-3xl max-w-lg break-words whitespace-pre-wrap">Get ready to look amazing with this template!</p>
-        <button className="btn bg-indigo-500 font-semibold text-base hover:bg-indigo-400 hover:border-indigo-400 border-indigo-400 text-white py-0 mt-4 border rounded-full">Get started</button>
+        <button className="btn font-semibold text-base hover:bg-indigo-400 hover:border-indigo-400 border-indigo-400 text-white py-0 mt-4 border rounded-full">Get started</button>
       </div>
     </>
   )

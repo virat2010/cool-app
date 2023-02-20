@@ -9,12 +9,16 @@
     -webkit-text-fill-color: transparent;
 }
 
-.btn-primary {
+.btn {
+    @apply font-semibold;
+}
 
+.btn-primary {
+    @apply bg-indigo-500;
 }
 
 .btn-secondary {
-
+    @apply bg-gray-200;
 }
 
 /* width */

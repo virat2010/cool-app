@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "git add * && git commit -m ready && git push origin main && git pull && next dev --turbo --show-all",
+    "dev": "next dev --turbo --show-all",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && stylelint **/*.{css,js}"
+    "next-lint": "next lint",
+    "style-lint": "stylelint **/*.{css,js}",
+    "github": "git add * && git commit -m ready && git push origin main && git pull"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -21,9 +23,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
-    "postcss-import": "^15.1.0",
     "postcss-lit": "^1.0.1",
-    "postcss-scss": "^4.0.6",
     "stylelint": "^15.2.0",
     "stylelint-config-standard": "^30.0.1",
     "tailwindcss": "^3.2.7"
