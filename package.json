@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo --show-all",
+    "dev": "git add * && git commit -m ready && git push origin main && git pull && next dev --turbo --show-all",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && stylelint **/*.{css,js}",
-    "ready": "git add * && git commit -m ready && git push origin main && git pull"
+    "lint": "next lint && stylelint **/*.{css,js}"
   },
   "dependencies": {
     "@next/font": "13.1.6",
