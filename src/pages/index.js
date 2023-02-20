@@ -19,7 +19,7 @@ export default function Home() {
       <div className="ml-96 mt-16">
         <div className="text-6xl font-bold leading-tight text-white"><span className="cool-text">Brand</span><br/> Next Generation <br /> Some Field </div><br />
         <p className="font-semibold text-3xl max-w-lg break-words whitespace-pre-wrap">Get ready to look amazing with this template!</p>
-        <button className="btn btn-primary mt-4 border-primaryl border">Get started</button>
+        <button className="btn btn-primary mt-4 border-primaryl border rounded-full">Get started</button>
       </div>
     </>
   )
