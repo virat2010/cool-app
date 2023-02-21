@@ -10,11 +10,11 @@
 }
 
 .btn {
-    @apply font-semibold;
+    @apply font-semibold text-base py-0 mt-4 border rounded-full;
 }
 
 .btn-primary {
-    @apply bg-indigo-500;
+    @apply bg-indigo-500 hover:bg-indigo-400 hover:border-indigo-400 border-indigo-400 text-white;
 }
 
 .btn-secondary {
